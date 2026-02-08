@@ -1,0 +1,16 @@
+# Environments and Secrets
+.env
+*.aws/
+credentials
+secrets.tfvars
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+venv/
